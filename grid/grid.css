@@ -1,0 +1,28 @@
+.grid-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas: "grid grid grid grid buttons";
+
+}
+
+.grid-container {
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.grid-card{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    grid-gap: 20px;
+    border: 1px solid black;
+}
+
+.grid-card--selected{
+    background-color: green;
+}
